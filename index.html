@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Patient Disease Predictor</title></head>
+<body>
+    <h2>Enter Patient Details</h2>
+    <form method="POST" action="/predict">
+        Name: <input type="text" name="name" required><br><br>
+        Age: <input type="number" name="age" required><br><br>
+        Symptoms (comma-separated): <input type="text" name="symptoms" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <h3>Predicted Disease: {{ prediction }}</h3>
+    {% endif %}
+    <br><a href="/records">View Previous Records</a>
+</body>
+</html>

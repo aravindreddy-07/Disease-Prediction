@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Welcome, {{ name }}</h2>
+<div class="card p-4">
+    <form method="POST" action="{{ url_for('dashboard') }}">
+        <div class="mb-3">
+            <label class="form-label">Age</label>
+            <input type="number" name="age" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Symptoms (comma-separated)</label>
+            <input type="text" name="symptoms" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success">Predict</button>
+    </form>
+    {% if prediction %}
+    <div class="alert alert-info mt-3">
+    Predicted Disease: <strong>{{ prediction }}</strong><br>
+    <small class="text-muted">This is not the final prediction. Please visit a doctor for confirmation.</small>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

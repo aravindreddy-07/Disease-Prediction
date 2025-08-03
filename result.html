@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="text-center">
+    <h2 class="mb-3">Prediction Result</h2>
+    <p class="lead">Predicted Disease: <strong>{{ prediction }} This is not the final prediction please visit the Doctor.</strong></p>
+    <a href="/dashboard" class="btn btn-outline-primary">Back to Dashboard</a>
+</div>
+{% endblock %}

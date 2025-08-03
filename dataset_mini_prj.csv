@@ -1,0 +1,625 @@
+disease,symptoms,cure,doctor,risk
+
+cold,"fever, sneezing, runny nose","rest, fluids, over-the-counter medications","family doctor","low (0.3%)"
+dengue,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+malaria,"fever, chills, sweating","antimalarial drugs, hospitalization","infectious disease specialist","high (5%)"
+typhoid,"fever, stomach pain, headache","antibiotics, fluids, rest","infectious disease specialist","high (4%)"
+measles,"fever, rash, cough","rest, fluids, vitamin A","pediatrician","medium (1.5%)"
+chickenpox,"fever, rash, itching","rest, calamine lotion, antiviral drugs","pediatrician","low (0.7%)"
+tuberculosis,"fever, cough, weight loss","antibiotics, prolonged treatment","pulmonologist","medium (3%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+zika,"fever, rash, joint pain","rest, fluids, pain relievers","infectious disease specialist","low (0.4%)"
+chikungunya,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+ebola,"fever, bleeding, weakness","hospitalization, supportive care","infectious disease specialist","very high (25%)"
+lassa fever,"fever, sore throat, vomiting","antiviral drugs, hospitalization","infectious disease specialist","high (10%)"
+rabies,"fever, agitation, paralysis","post-exposure prophylaxis, supportive care","infectious disease specialist","very high (20%)"
+leptospirosis,"fever, muscle pain, jaundice","antibiotics, supportive care","infectious disease specialist","medium (2.5%)"
+H1N1,"fever, cough, sore throat","antiviral drugs, rest","family doctor","medium (1%)"
+SARS,"fever, dry cough, difficulty breathing","hospitalization, supportive care","infectious disease specialist","high (9%)"
+MERS,"fever, cough, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+COVID-19,"fever, cough, loss of taste or smell","rest, isolation, medical care","infectious disease specialist","varies (1-15%)"
+meningitis,"fever, headache, stiff neck","antibiotics, hospitalization","neurologist","high (12%)"
+encephalitis,"fever, confusion, seizures","antiviral drugs, hospitalization","neurologist","high (6%)"
+brucellosis,"fever, joint pain, fatigue","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+rocky mountain spotted fever,"fever, rash, muscle pain","antibiotics, hospitalization","infectious disease specialist","medium (5%)"
+lyme disease,"fever, rash, joint pain","antibiotics, supportive care","infectious disease specialist","low (1%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+pneumonia,"fever, cough, chest pain","antibiotics, hospitalization","pulmonologist","medium (4%)"
+sinusitis,"fever, facial pain, congestion","antibiotics, nasal decongestants","ENT specialist","low (0.3%)"
+pharyngitis,"fever, sore throat, swollen glands","antibiotics, rest","family doctor","low (0.4%)"
+otitis media,"fever, ear pain, hearing loss","antibiotics, pain relievers","ENT specialist","low (0.2%)"
+urinary tract infection,"fever, pain during urination, frequent urination","antibiotics, fluids","urologist","low (0.5%)"
+kidney infection,"fever, back pain, nausea","antibiotics, hospitalization","urologist","medium (3.5%)"
+gastroenteritis,"fever, diarrhea, vomiting","fluids, rest, supportive care","gastroenterologist","low (0.4%)"
+appendicitis,"fever, abdominal pain, nausea","surgery, antibiotics","surgeon","high (6%)"
+peritonitis,"fever, abdominal pain, bloating","antibiotics, surgery","surgeon","high (10%)"
+hepatitis A,"fever, jaundice, abdominal pain","rest, supportive care","hepatologist","low (0.7%)"
+hepatitis B,"fever, jaundice, fatigue","antiviral drugs, supportive care","hepatologist","medium (1.5%)"
+hepatitis C,"fever, jaundice, liver damage","antiviral drugs, supportive care","hepatologist","medium (2%)"
+liver abscess,"fever, abdominal pain, weight loss","antibiotics, drainage","hepatologist","medium (4%)"
+pancreatitis,"fever, abdominal pain, nausea","hospitalization, supportive care","gastroenterologist","high (7%)"
+cholangitis,"fever, jaundice, abdominal pain","antibiotics, surgery","hepatologist","high (5%)"
+gallbladder infection,"fever, abdominal pain, nausea","surgery, antibiotics","gastroenterologist","medium (3%)"
+pelvic inflammatory disease,"fever, abdominal pain, discharge","antibiotics, rest","gynecologist","medium (1.8%)"
+sepsis,"fever, rapid breathing, confusion","hospitalization, antibiotics","intensivist","very high (20%)"
+toxic shock syndrome,"fever, rash, low blood pressure","hospitalization, antibiotics","intensivist","high (15%)"
+endocarditis,"fever, heart murmur, fatigue","antibiotics, surgery","cardiologist","high (12%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+systemic lupus erythematosus,"fever, joint pain, rash","immunosuppressants, supportive care","rheumatologist","medium (2%)"
+kawasaki disease,"fever, rash, swollen lymph nodes","immunoglobulin therapy, aspirin","pediatrician","low (0.5%)"
+lymphoma,"fever, swollen lymph nodes, weight loss","chemotherapy, radiation","oncologist","high (8%)"
+leukemia,"fever, fatigue, frequent infections","chemotherapy, bone marrow transplant","oncologist","high (10%)"
+multiple myeloma,"fever, bone pain, frequent infections","chemotherapy, stem cell transplant","oncologist","high (5%)"
+sarcoidosis,"fever, fatigue, swollen lymph nodes","steroids, immunosuppressants","pulmonologist","medium (2%)"
+vasculitis,"fever, rash, joint pain","steroids, immunosuppressants","rheumatologist","medium (3%)"
+flu,"fever","rest, fluids, antiviral drugs","family doctor","low (0.5%)"
+influenza,"fever","rest, fluids, antiviral drugs","family doctor","low (0.5%)"
+hantavirus,"fever, muscle aches, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+q fever,"fever, cough, chest pain","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+psittacosis,"fever, headache, muscle pain","antibiotics, rest","infectious disease specialist","low (0.8%)"
+tularemia,"fever, skin ulcer, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+plague,"fever, swollen lymph nodes, weakness","antibiotics, hospitalization","infectious disease specialist","high (10%)"
+smallpox,"fever, rash, body aches","supportive care, isolation","infectious disease specialist","high (30%)"
+monkeypox,"fever, rash, swollen lymph nodes","supportive care, antiviral drugs","infectious disease specialist","medium (5%)"
+rubella,"fever, rash, swollen lymph nodes","supportive care, rest","pediatrician","low (0.3%)"
+mumps,"fever, swollen salivary glands, headache","rest, fluids, pain relievers","pediatrician","low (0.4%)"
+whooping cough,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+pertussis,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+rickettsial infection,"fever, rash, headache","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+scrub typhus,"fever, rash, muscle pain","antibiotics, supportive care","infectious disease specialist","medium (1.5%)"
+typhus,"fever, headache, rash","antibiotics, supportive care","infectious disease specialist","medium (1.8%)"
+toxoplasmosis,"fever, muscle pain, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","low (0.6%)"
+cytomegalovirus,"fever, fatigue, swollen glands","antiviral drugs, supportive care","infectious disease specialist","low (0.4%)"
+epstein-barr virus,"fever, sore throat, swollen glands","rest, fluids, supportive care","infectious disease specialist","low (0.3%)"
+herpes simplex virus,"fever, blisters, pain","antiviral drugs, supportive care","dermatologist","low (0.5%)"
+herpes zoster,"fever, rash, nerve pain","antiviral drugs, pain relievers","dermatologist","medium (1%)"
+roseola,"fever, rash, runny nose","supportive care, rest","pediatrician","low (0.2%)"
+hand-foot-and-mouth disease,"fever, sores, rash","supportive care, rest","pediatrician","low (0.4%)"
+fifth disease,"fever, rash, joint pain","supportive care, rest","pediatrician","low (0.2%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+west nile virus,"fever, headache, joint pain","supportive care, pain relievers","infectious disease specialist","low (0.5%)"
+dengue fever,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+chikungunya fever,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+flu,"fever, cough, sore throat","rest, fluids, antiviral drugs","family doctor","low (0.5%)"
+cold,"fever, sneezing, runny nose","rest, fluids, over-the-counter medications","family doctor","low (0.3%)"
+dengue,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+malaria,"fever, chills, sweating","antimalarial drugs, hospitalization","infectious disease specialist","high (5%)"
+typhoid,"fever, stomach pain, headache","antibiotics, fluids, rest","infectious disease specialist","high (4%)"
+measles,"fever, rash, cough","rest, fluids, vitamin A","pediatrician","medium (1.5%)"
+chickenpox,"fever, rash, itching","rest, calamine lotion, antiviral drugs","pediatrician","low (0.7%)"
+tuberculosis,"fever, cough, weight loss","antibiotics, prolonged treatment","pulmonologist","medium (3%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+zika,"fever, rash, joint pain","rest, fluids, pain relievers","infectious disease specialist","low (0.4%)"
+chikungunya,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+ebola,"fever, bleeding, weakness","hospitalization, supportive care","infectious disease specialist","very high (25%)"
+lassa fever,"fever, sore throat, vomiting","antiviral drugs, hospitalization","infectious disease specialist","high (10%)"
+rabies,"fever, agitation, paralysis","post-exposure prophylaxis, supportive care","infectious disease specialist","very high (20%)"
+leptospirosis,"fever, muscle pain, jaundice","antibiotics, supportive care","infectious disease specialist","medium (2.5%)"
+H1N1,"fever, cough, sore throat","antiviral drugs, rest","family doctor","medium (1%)"
+SARS,"fever, dry cough, difficulty breathing","hospitalization, supportive care","infectious disease specialist","high (9%)"
+MERS,"fever, cough, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+COVID-19,"fever, cough, loss of taste or smell","rest, isolation, medical care","infectious disease specialist","varies (1-15%)"
+meningitis,"fever, headache, stiff neck","antibiotics, hospitalization","neurologist","high (12%)"
+encephalitis,"fever, confusion, seizures","antiviral drugs, hospitalization","neurologist","high (6%)"
+brucellosis,"fever, joint pain, fatigue","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+rocky mountain spotted fever,"fever, rash, muscle pain","antibiotics, hospitalization","infectious disease specialist","medium (5%)"
+lyme disease,"fever, rash, joint pain","antibiotics, supportive care","infectious disease specialist","low (1%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+pneumonia,"fever, cough, chest pain","antibiotics, hospitalization","pulmonologist","medium (4%)"
+sinusitis,"fever, facial pain, congestion","antibiotics, nasal decongestants","ENT specialist","low (0.3%)"
+pharyngitis,"fever, sore throat, swollen glands","antibiotics, rest","family doctor","low (0.4%)"
+otitis media,"fever, ear pain, hearing loss","antibiotics, pain relievers","ENT specialist","low (0.2%)"
+urinary tract infection,"fever, pain during urination, frequent urination","antibiotics, fluids","urologist","low (0.5%)"
+kidney infection,"fever, back pain, nausea","antibiotics, hospitalization","urologist","medium (3.5%)"
+gastroenteritis,"fever, diarrhea, vomiting","fluids, rest, supportive care","gastroenterologist","low (0.4%)"
+appendicitis,"fever, abdominal pain, nausea","surgery, antibiotics","surgeon","high (6%)"
+peritonitis,"fever, abdominal pain, bloating","antibiotics, surgery","surgeon","high (10%)"
+hepatitis A,"fever, jaundice, abdominal pain","rest, supportive care","hepatologist","low (0.7%)"
+hepatitis B,"fever, jaundice, fatigue","antiviral drugs, supportive care","hepatologist","medium (1.5%)"
+hepatitis C,"fever, jaundice, liver damage","antiviral drugs, supportive care","hepatologist","medium (2%)"
+liver abscess,"fever, abdominal pain, weight loss","antibiotics, drainage","hepatologist","medium (4%)"
+pancreatitis,"fever, abdominal pain, nausea","hospitalization, supportive care","gastroenterologist","high (7%)"
+cholangitis,"fever, jaundice, abdominal pain","antibiotics, surgery","hepatologist","high (5%)"
+gallbladder infection,"fever, abdominal pain, nausea","surgery, antibiotics","gastroenterologist","medium (3%)"
+pelvic inflammatory disease,"fever, abdominal pain, discharge","antibiotics, rest","gynecologist","medium (1.8%)"
+sepsis,"fever, rapid breathing, confusion","hospitalization, antibiotics","intensivist","very high (20%)"
+toxic shock syndrome,"fever, rash, low blood pressure","hospitalization, antibiotics","intensivist","high (15%)"
+endocarditis,"fever, heart murmur, fatigue","antibiotics, surgery","cardiologist","high (12%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+systemic lupus erythematosus,"fever, joint pain, rash","immunosuppressants, supportive care","rheumatologist","medium (2%)"
+kawasaki disease,"fever, rash, swollen lymph nodes","immunoglobulin therapy, aspirin","pediatrician","low (0.5%)"
+lymphoma,"fever, swollen lymph nodes, weight loss","chemotherapy, radiation","oncologist","high (8%)"
+leukemia,"fever, fatigue, frequent infections","chemotherapy, bone marrow transplant","oncologist","high (10%)"
+multiple myeloma,"fever, bone pain, frequent infections","chemotherapy, stem cell transplant","oncologist","high (5%)"
+sarcoidosis,"fever, fatigue, swollen lymph nodes","steroids, immunosuppressants","pulmonologist","medium (2%)"
+vasculitis,"fever, rash, joint pain","steroids, immunosuppressants","rheumatologist","medium (3%)"
+hantavirus,"fever, muscle aches, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+q fever,"fever, cough, chest pain","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+psittacosis,"fever, headache, muscle pain","antibiotics, rest","infectious disease specialist","low (0.8%)"
+tularemia,"fever, skin ulcer, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+plague,"fever, swollen lymph nodes, weakness","antibiotics, hospitalization","infectious disease specialist","high (10%)"
+smallpox,"fever, rash, body aches","supportive care, isolation","infectious disease specialist","high (30%)"
+monkeypox,"fever, rash, swollen lymph nodes","supportive care, antiviral drugs","infectious disease specialist","medium (5%)"
+rubella,"fever, rash, swollen lymph nodes","supportive care, rest","pediatrician","low (0.3%)"
+mumps,"fever, swollen salivary glands, headache","rest, fluids, pain relievers","pediatrician","low (0.4%)"
+whooping cough,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+pertussis,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+rickettsial infection,"fever, rash, headache","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+scrub typhus,"fever, rash, muscle pain","antibiotics, supportive care","infectious disease specialist","medium (1.5%)"
+typhus,"fever, headache, rash","antibiotics, supportive care","infectious disease specialist","medium (1.8%)"
+toxoplasmosis,"fever, muscle pain, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","low (0.6%)"
+cytomegalovirus,"fever, fatigue, swollen glands","antiviral drugs, supportive care","infectious disease specialist","low (0.4%)"
+epstein-barr virus,"fever, sore throat, swollen glands","rest, fluids, supportive care","infectious disease specialist","low (0.3%)"
+herpes simplex virus,"fever, blisters, pain","antiviral drugs, supportive care","dermatologist","low (0.5%)"
+herpes zoster,"fever, rash, nerve pain","antiviral drugs, pain relievers","dermatologist","medium (1%)"
+roseola,"fever, rash, runny nose","supportive care, rest","pediatrician","low (0.2%)"
+hand-foot-and-mouth disease,"fever, sores, rash","supportive care, rest","pediatrician","low (0.4%)"
+fifth disease,"fever, rash, joint pain","supportive care, rest","pediatrician","low (0.2%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+west nile virus,"fever, headache, joint pain","supportive care, pain relievers","infectious disease specialist","low (0.5%)"
+dengue fever,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+chikungunya fever,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+bronchitis,"cough,mucus production,shortness of breath,chest pain","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",low (0.5%
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",moderate (1%)
+heart attack,"chest pain,shortness of breath,nausea,vomiting,lightheadedness,sweating",emergency medical services,cardiologist,high (20%)
+stroke,"sudden weakness,numbness on one side of the body,confusion,difficulty speaking,trouble seeing in one eye,severe headache",emergency medical services,neurologist ,high (15%)
+cancer,"lump,unexplained weight loss,fatigue,changes in bowel,bladder habits,persistent cough,indigestion,unexplained bleeding or discharge","surgery,chemotherapy,radiation therapy ",oncologist,varies depending on the type of cancer
+diabetes,"increased thirst,frequent urination,unexplained weight loss,fatigue,blurred vision,cuts that are slow to heal","diet,exercise,medication",endocrinologist,high (25%)
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms",neurologist,high (70%)
+arthritis,"pain,stiffness,swelling,inflammation in the joints","medication,physical therapy,lifestyle changes",rheumatologist,varies depending on the type of arthritis
+adenovirus,"fever,sore throat,cough,conjunctivitis,rash,pink eye","antibiotics,over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+aflatoxicosis,"vomiting,diarrhea,jaundice,liver damage,death","there is no cure for aflatoxicosis,but treatment may include supportive care,liver transplantation",gastroenterologist,high (70%)
+alcoholism,"physical dependence on alcohol,tolerance to alcohol,withdrawal symptoms,impaired judgment,memory problems,liver damage,heart disease,cancer"," treatment for alcoholism may include counseling,medication,support groups"," psychiatrist,addiction specialist",high (25%)
+allergic rhinitis,"runny nose,sneezing,itchy eyes,itchy nose,throat,palate","over-the-counter medications,allergy shots",allergist,low (0.1%)
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms",neurologist,high (70%)
+anemia,"fatigue,shortness of breath,pale skin,lightheadedness,dizziness", , hematologist ,varies depending on the type of anemia
+anxiety disorder,"excessive worry,fear,anxiety that interfere with daily life","treatment for anxiety disorders may include therapy,medication,combination of both","psychologist,psychiatrist",varies depending on the type of anxiety disorder
+appendicitis,"pain in the lower right abdomen,nausea,vomiting,fever",appendectomy,surgeon ,high (20%)
+arthritis,"pain,stiffness,swelling,inflammation in the joints","medication,physical therapy,lifestyle changes",rheumatologist,varies depending on the type of arthritis
+asperger syndrome,"difficulty with social interaction,repetitive behaviors,restricted interests","there is no cure for asperger syndrome,but there are treatments that can help manage the symptoms","psychologist,psychiatrist",varies
+asthma,"wheezing,shortness of breath,coughing,chest tightness","treatment for asthmmay include medication,lifestyle changes,allergy shots"," allergist,pulmonologist",varies
+bacterial meningitis,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+bipolar disorder,"extreme mood swings,from manito depression","treatment for bipolar disorder may include medication,therapy,combination of both"," psychologist,psychiatrist",varies
+bladder cancer,"blood in the urine,pain or burning when urinating,frequent urination,urgency to urinate,incontinence","surgery,chemotherapy,radiation therapy",urologist,high (70%)
+blood clot,"pain,swelling,redness,warmth,tenderness in the affected area,shortness of breath,chest pain,difficulty breathing,coughing up blood","treatment for blood clot may include medication,surgery,combination of both","cardiologist,hematologist",high (20%)
+bronchitis,"cough,mucus production,shortness of breath,chest pain","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",low (0.5%)
+bursitis,"pain,swelling,inflammation in bursa,which is small sac of fluid that cushions joints","medication,rest,ice,compression,elevation","family doctor,orthopedist",varies depending on the bursa
+cancer,"lump,unexplained weight loss,fatigue,changes in bowel,bladder habits,persistent cough,indigestion,unexplained bleeding or discharge","surgery,chemotherapy,radiation therapy",oncologist,varies depending on the type of cancer
+cervical cancer,"abnormal pap test results,abnormal vaginal bleeding,pain during sex","surgery,chemotherapy,radiation therapy",gynecologist,high (70%)
+chickenpox,"rash,fever,headache,muscle aches,fatigue","antiviral medication,over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+chronic obstructive pulmonary disease (copd),"chronic bronchitis,emphysema","treatment for copd may include medication,lifestyle changes,oxygen therapy",pulmonologist,varies depending on the type of copd
+cholesterol,high levels of cholesterol in the blood,"diet,exercise,medication",cardiologist,varies depending on the level of cholesterol
+common cold,"runny nose,sneezing,sore throat,cough,congestion","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+conjunctivitis,"red,itchy,watery eyes","over-the-counter medications,warm compresses","family doctor,ophthalmologist",low (0.1%)
+depression ,"sadness,hopelessness,loss of interest in activities,changes in appetite,sleep,energy levels","treatment for depression may include medication,therapy,combination of both","psychologist,psychiatrist",varies
+diabetes,"increased thirst,frequent urination,unexplained weight loss,fatigue,blurred vision,cuts that are slow to heal","diet,exercise,medication",endocrinologist,high (25%)
+diarrhea,"loose,watery stools","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+eating disorder,disturbance in eating behavior that can lead to serious health problems,"treatment for eating disorders may include therapy,medication,support groups","psychologist,psychiatrist",varies depending on the type of eating disorder
+epilepsy,seizures,"medication,surgery", neurologist ,varies depending on the type of epilepsy
+fever,elevated body temperature ,"over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+food poisoning,"nausea,vomiting,diarrhea,abdominal cramps","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+gallstones,"pain in the upper right abdomen,nausea,vomiting,fever",surgery,surgeon ,high (20%)
+gonorrhea,"sexually transmitted infection that can cause burning during urination,discharge from the penis or vagina,pain in the lower abdomen",antibiotics,"urologist,gynecologist",high (70%)
+heart disease,"chest pain,shortness of breath,fatigue,dizziness,fainting","treatment for heart disease may include medication,lifestyle changes,surgery",cardiologist,high (20%)
+hepatitis,inflammation of the liver,"treatment for hepatitis may include medication,rest,lifestyle changes",gastroenterologist,varies depending on the type of hepatitis
+herpes,"sexually transmitted infection that can cause blisters on the genitals,mouth,other parts of the body","there is no cure for herpes,but there are treatments that can help manage the symptoms","urologist,gynecologist",high (70%)
+influenza,"fever,cough,sore throat,runny or stuffy nose,muscle aches,headache,fatigue","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+irritable bowel syndrome (ibs),"abdominal pain,bloating,constipation,diarrhea","treatment for ibs may include diet,lifestyle changes,medication"," family doctor,gastroenterologist",varies
+kidney stones ,"pain in the lower back or side,nausea,vomiting,blood in the urine",surgery,urologist,high (20%)
+lung cancer,"cough that does not go away,shortness of breath,chest pain,unexplained weight loss,fatigue,blood in the sputum","surgery,chemotherapy,radiation therapy",oncologist,high (70%)
+malaria,"fever,chills,sweating,headache,muscle aches,fatigue,vomiting,diarrhea",antimalarial drugs,"family doctor,urgent care",high (20%)
+measles,"fever,cough,runny nose,red eyes,sore throat,rash",measles vaccine,"family doctor,urgent care",high (70%)
+meningitis,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+mononucleosis,"fever,sore throat,fatigue,swollen lymph nodes,rash","there is no cure for mononucleosis,but symptoms can be treated with rest,fluids,over-the-counter medications","family doctor,urgent care",low (0.1%)
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue",antibiotics,"family doctor,pulmonologist",moderate (1%
+rabies,"fever,headache,muscle aches,tingling at the bite site,difficulty swallowing,hydrophobia,aerophobia",rabies vaccine,"doctor,urgent care",high (70%)
+salmonella,"fever,diarrhea,abdominal cramps,nausea,vomiting",antibiotics,"family doctor,urgent care ",low (0.1%)
+shingles,painful rash that follows nerve path,antiviral medication,"family doctor,dermatologist ",low (0.1%)
+tuberculosis (tb),"cough that does not go away,fever,night sweats,weight loss,fatigue,chest pain",antibiotics,"family doctor,pulmonologist",high (20%)
+urinary tract infection (uti),"painful urination,burning,frequent urination,urgency to urinate,blood in the urine",antibiotics,urologist,low (0.1%)
+varicose veins,"swollen,twisted veins,usually in the legs","surgery,compression stockings,lifestyle changes",vascular surgeon,varies
+warts ,"raised,rough growths on the skin","over-the-counter medications,prescription medications,cryotherapy,laser therapy",dermatologist,low (0.1%)
+yeast infection,"itching,burning,discharge from the vaginor penis","over-the-counter medications,prescription medications","urologist,gynecologist",low (0.1%)
+acanthamoebkeratitis,"pain,redness,inflammation in the eye","antibiotics,antifungals,surgery",ophthalmologist ,low (0.1%
+acute appendicitis,"pain in the lower right abdomen,nausea,vomiting,fever",appendectomy,surgeon,high (20%)
+acute kidney injury (aki) ,decreased kidney function,"treatment for the underlying cause,such as dehydration,infection,medication side effect ",nephrologist ,varies
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms ",neurologist,high (70%)
+anemia,"fatigue,shortness of breath,pale skin,lightheadedness,dizziness","treatment for anemidepends on the type of anemia,but may include medication,blood transfusions,surgery",hematologist,varies depending on the type of anemia
+aortic aneurysm,"bulge in the wall of the aorta,the largest artery in the body",surgery,vascular surgeon,high (20%)
+bacterial meningitis ,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+bipolar disorder,"extreme mood swings,from manito depression","treatment for bipolar disorder may include medication,therapy,combination of both","psychologist,psychiatrist",varies
+cervical cancer ,"abnormal pap test results,abnormal vaginal bleeding,pain during sex","surgery,chemotherapy,radiation therapy",gynecologist ,high (70%)
+colorectal cancer,"change in bowel habits,such as diarrhea,constipation,narrowing of the stool,blood in the stool,abdominal pain,unexplained weight loss","surgery,chemotherapy,radiation therapy",gastroenterologist,high (70%)
+dementia,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for dementia,but there are treatments that can help manage the symptoms",neurologist ,varies
+erectile dysfunction,"difficulty getting,keeping an erection ","medication,lifestyle changes,surgery ",urologist,varies
+fibromyalgi,"widespread pain,fatigue,tenderness","medication,lifestyle changes ",rheumatologist ,varies
+glaucoma,"increased pressure in the eye that can damage the optic nerve,lead to vision loss","medication,surgery ", ophthalmologist,varies
+heart failure,condition in which the heart cannot pump blood as well as it should,"medication,lifestyle changes,surgery",cardiologist,high (20%)
+kidney disease,damage to the kidneys that can lead to kidney failure,"treatment for the underlying cause,such as high blood pressure,diabetes,an infection",nephrologist,varies
+lung disease,"condition that affects the lungs,can make it difficult to breathe","treatment for the underlying cause,such as asthma,chronic obstructive pulmonary disease (copd),pneumonia",pulmonologist,varies
+parkinson's disease,"tremors,slow movement,stiffness,difficulty with balance,coordination "," medication,lifestyle changes",neurologist ,varies
+peptic ulcer disease ,"pain in the upper abdomen,indigestion,nausea,vomiting","medication,lifestyle changes,surgery ",gastroenterologist,varies
+peripheral artery disease,"pain,numbness,tingling in the arms or legs","medication,lifestyle changes,surgery",vascular surgeon,varies
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue",antibiotics,"family doctor,pulmonologist",moderate (1%)
+prostate cancer,"difficulty urinating,blood in the urine,pain in the back or hips,erectile dysfunction"," surgery,radiation therapy,hormone therapy",urologist,high (70%)
+rheumatoid arthritis,"pain,swelling,stiffness in the joints","medication,lifestyle changes",rheumatologist,varies
+stroke,"sudden weakness,numbness on one side of the body,difficulty speaking,confusion,trouble seeing in one eye,severe headache","treatment for the underlying cause,such as clot-busting medication,surgery","neurologist,neurosurgeon",high (20%)
+stomach cancer,"pain in the upper abdomen,indigestion,nausea,vomiting,weight loss","surgery,chemotherapy,radiation therapy",gastroenterologist ,high (70%)
+thyroid cancer,"lump in the neck,hoarseness,fatigue,weight loss,unexplained heat intolerance,sensitivity to cold","surgery,radiation therapy,hormone therapy",endocrinologist,high (70%)
+ulcerative colitis,"diarrhea,bloody stool,abdominal pain,weight loss","medication,surgery",gastroenterologist ,varies
+warts,"raised,rough growths on the skin","over-the-counter medications,prescription medications,cryotherapy,laser therapy", dermatologist,low (0.1%)
+atopic dermatitis,"itchy,red,inflamed skin","medication,lifestyle changes", dermatologist,varies
+celiac disease,"diarrhea,bloating,weight loss,fatigue,abdominal pain",gluten-free diet,gastroenterologist,varies
+chronic kidney disease,"fatigue,shortness of breath,swelling,high blood pressure,changes in urination","treatment for the underlying cause,such as high blood pressure,diabetes,an infection",nephrologist,varies
+crohn's disease,"diarrhea,bloody stool,abdominal pain,weight loss","medication,surgery",gastroenterologist,varies
+epilepsy ,seizures,"medication,surgery",neurologist,varies
+graves' disease,"hyperthyroidism,which is an overactive thyroid","medication,surgery",endocrinologist,varies
+hashimoto's thyroiditis ,"hypothyroidism,which is an underactive thyroid ",medication,endocrinologist,varies
+lupus,chronic autoimmune disease that can affect any part of the body,"medication,lifestyle changes",rheumatologist ,varies
+flu,"fever,cough,sore throat,runny or stuffy nose,muscle aches,headache,fatigue","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%
+hyperhidrosis,"excessive sweating","antiperspirants,medication","dermatologist",varies
+menopause,"sweating,hot flashes","hormone replacement therapy,lifestyle changes","gynecologist",varies
+thyroid disease,"sweating,weight changes","medication,hormone therapy","endocrinologist",varies
+anxiety disorder,"sweating,nervousness","therapy,medication","psychologist,psychiatrist",varies
+fever,"sweating,elevated body temperature","antipyretics,rest,fluids","family doctor",low (0.1%)
+infection,"sweating,chills","antibiotics,rest","family doctor",moderate (5%)
+heart disease,"sweating,chest pain","medication,lifestyle changes","cardiologist",high (20%)
+diabetes,"sweating,thirst","medication,insulin management","endocrinologist",high (25%)
+hyperthyroidism,"sweating,tremors","medication,radioactive iodine therapy","endocrinologist",high (20%)
+malaria,"sweating,fever,chills","antimalarial drugs,rest","family doctor,urgent care",high (20%)
+dehydration,"dizziness,thirst","fluid replacement,rest","family doctor",low (0.1%)
+vertigo,"dizziness,spinning sensation","medication,vestibular rehabilitation","ENT specialist",moderate (5%)
+low blood pressure,"dizziness,fainting","medication,lifestyle changes","family doctor",low (0.1%)
+anemia,"dizziness,fatigue","medication,iron supplements","hematologist",varies
+ear infection,"dizziness,ear pain","antibiotics,ear drops","ENT specialist",low (0.1%)
+migraine,"dizziness,headache","medication,rest","neurologist",moderate (10%)
+inner ear disorder,"dizziness,hearing loss","medication,physical therapy","ENT specialist",moderate (5%)
+stroke,"dizziness,confusion","emergency medical services,medication","neurologist",high (15%)
+hypoglycemia,"dizziness,sweating","glucose intake,rest","family doctor",moderate (10%)
+Meniere's disease,"dizziness,hearing loss,tinnitus","medication,dietary changes","ENT specialist",high (20%)
+osteoarthritis,"joint pain,stiffness","medication,physical therapy,lifestyle changes","rheumatologist",varies
+rheumatoid arthritis,"joint pain,swelling","medication,physical therapy,lifestyle changes","rheumatologist",varies
+gout,"joint pain,redness","medication,dietary changes","rheumatologist",varies
+lupus,"joint pain,skin rash","medication,lifestyle changes","rheumatologist",high (30%)
+psoriatic arthritis,"joint pain,skin patches","medication,physical therapy","rheumatologist",varies
+bursitis,"joint pain,swelling","medication,rest,ice","family doctor,orthopedist",varies
+septic arthritis,"joint pain,fever","antibiotics,surgery","orthopedic surgeon",high (20%)
+fibromyalgia,"joint pain,fatigue","medication,lifestyle changes","rheumatologist",varies
+juvenile arthritis,"joint pain,swelling,fever","medication,physical therapy","pediatric rheumatologist",varies
+chronic lyme disease,"joint pain,fatigue,fever","antibiotics,medication","infectious disease specialist",moderate (10%)
+flu,"body pain,fever","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+muscle strain,"body pain,muscle soreness","rest,ice,over-the-counter pain relievers","family doctor",low (0.1%)
+fibromyalgia,"body pain,fatigue","medication,lifestyle changes","rheumatologist",varies
+chronic fatigue syndrome,"body pain,fatigue","medication,rest,lifestyle changes","family doctor",moderate (2%)
+rheumatic fever,"body pain,fever,swollen joints","antibiotics,rest,medication","family doctor,cardiologist",moderate (5%)
+arthritis,"body pain,joint swelling","medication,physical therapy,lifestyle changes","rheumatologist",varies
+systemic lupus erythematosus,"body pain,joint pain,fever","medication,lifestyle changes","rheumatologist",high (30%)
+sepsis,"body pain,fever,rapid heartbeat","antibiotics,emergency medical care","emergency specialist",high (20%)
+chronic kidney disease,"body pain,swelling,fatigue","treatment for the underlying cause,such as high blood pressure","nephrologist",varies
+multiple sclerosis,"body pain,muscle weakness,fatigue","medication,physical therapy","neurologist",high (25%)
+common cold,"cold,sore throat","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+allergic rhinitis,"cold,sneezing","over-the-counter medications,allergy shots","allergist",low (0.1%)
+sinusitis,"cold,facial pain","decongestants,antibiotics,rest","ENT specialist",low (0.5%)
+flu,"cold,fever,fatigue","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+upper respiratory infection,"cold,cough,fatigue","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+bronchitis,"cold,cough,sputum production","antibiotics,over-the-counter medications,rest","family doctor,pulmonologist",low (0.5%)
+pneumonia,"cold,fever,shortness of breath","antibiotics,rest,fluids","family doctor,pulmonologist",moderate (1%)
+COVID-19,"cold,fever,fatigue","over-the-counter medications,rest,fluids","infectious disease specialist",varies
+chronic rhinosinusitis,"cold,nasal congestion,fatigue","nasal sprays,antibiotics,rest","ENT specialist",moderate (2%)
+post-viral cough,"cold,cough,throat irritation","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+tension headache,"headache,neck pain","over-the-counter pain relievers,stress management","family doctor",low (0.1%)
+migraine,"headache,nausea","medication,rest,avoidance of triggers","neurologist",moderate (1%)
+sinusitis,"headache,facial pain","decongestants,antibiotics,rest","ENT specialist",low (0.5%)
+cluster headache,"headache,eye pain","medication,oxygen therapy","neurologist",high (15%)
+flu,"headache,fever","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+meningitis,"headache,stiff neck","antibiotics,rest","neurologist,neurosurgeon",high (20%)
+chronic migraines,"headache,nausea,visual disturbances","medication,therapy","neurologist",high (25%)
+hypertension,"headache,dizziness","medication,lifestyle changes","cardiologist",moderate (5%)
+brain tumor,"headache,seizures,nausea","surgery,chemotherapy,radiation therapy","neurosurgeon",high (70%)
+cerebral aneurysm,"headache,severe sudden pain,visual disturbances","emergency medical services,surgery","neurologist,neurosurgeon",high (50%)
+common cold,"runny nose,sore throat","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+allergic rhinitis,"runny nose,sneezing","over-the-counter medications,allergy shots","allergist",low (0.1%)
+sinusitis,"runny nose,facial pain","decongestants,over-the-counter medications,rest","ENT specialist",low (0.5%)
+flu,"runny nose,fever,body aches","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+nasal congestion,"runny nose,sneezing,fatigue","decongestants,over-the-counter medications","family doctor",low (0.1%)
+chronic rhinosinusitis,"runny nose,persistent cough,facial pressure","nasal sprays,antibiotics,rest","ENT specialist",moderate (1%)
+hay fever,"runny nose,itchy eyes,sneezing","over-the-counter medications,allergy shots","allergist",low (0.1%)
+COVID-19,"runny nose,fever,fatigue","over-the-counter medications,rest,fluids","infectious disease specialist",varies
+seasonal flu,"runny nose,cough,fever","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+rhinorrhea,"runny nose,itchy throat,post-nasal drip","decongestants,rest,fluids","family doctor",low (0.1%)
+common cold,"cough,runny nose","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+bronchitis,"cough,shortness of breath","antibiotics,over-the-counter medications,rest,fluids","family doctor",low (0.5%)
+asthma,"cough,wheezing","medication,lifestyle changes,allergy shots","allergist,pulmonologist",varies
+pneumonia,"cough,fever,shortness of breath","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",moderate (1%)
+tuberculosis,"cough,fever,night sweats","antibiotics,rest,fluids","family doctor,pulmonologist",high (20%)
+whooping cough,"cough,runny nose,fever","antibiotics,rest,fluids","pediatrician,family doctor",moderate (1%)
+chronic obstructive pulmonary disease (COPD),"cough,shortness of breath,wheezing","medication,lifestyle changes,oxygen therapy","pulmonologist",varies
+allergic rhinitis,"cough,sneezing,itchy eyes","over-the-counter medications,allergy shots","allergist",low (0.1%)
+lung cancer,"cough,shortness of breath,unexplained weight loss","surgery,chemotherapy,radiation therapy","oncologist",high (70%)
+COVID-19,"cough,fever,loss of taste or smell","over-the-counter medications,rest,fluids","infectious disease specialist",varies
+common cold,"fever,sore throat","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+roseola,"fever,rash","rest,fluids,over-the-counter medications","family doctor",low (0.1%)
+influenza,"fever,cough,body aches","over-the-counter medications,rest,fluids","family doctor",low (0.1%)
+dengue fever,"fever,joint pain,rash","fluids,rest,pain relievers","family doctor",moderate (1%)
+typhoid fever,"fever,abdominal pain,diarrhea","antibiotics,hydration,rest","infectious disease specialist",moderate (1%)
+malaria,"fever,chills,sweating","antimalarial drugs,rest,fluids","family doctor",high (20%)
+meningitis,"fever,headache,stiff neck","antibiotics,rest,fluids","neurologist",high (20%)
+lyme disease,"fever,fatigue,skin rash","antibiotics,rest,fluids","infectious disease specialist",moderate (1%)
+rheumatic fever,"fever,swollen joints,skin rash","antibiotics,anti-inflammatory medications,rest","cardiologist",moderate (1%)
+kawasaki disease,"fever,red eyes,swollen lymph nodes","immunoglobulin therapy,aspirin,fluids","pediatrician",moderate (1%)
+migraine,"headache,nausea","over-the-counter medications,rest","neurologist",low (0.1%)
+tonsillitis,"sore throat,fever","antibiotics,rest","family doctor",low (0.1%)
+sinusitis,"headache,nasal congestion","over-the-counter medications,rest","family doctor",low (0.1%)
+otitis media,"ear pain,fever","antibiotics,rest","family doctor",low (0.1%)
+eczema,"itchy skin,redness","topical creams,moisturizers","dermatologist",low (0.1%)
+gastritis,"stomach pain,nausea","antacids,dietary changes","gastroenterologist",low (0.1%)
+conjunctivitis,"red eyes,itchiness","eye drops,rest","ophthalmologist",low (0.1%)
+hypothyroidism,"fatigue,weight gain","hormone replacement therapy","endocrinologist",moderate (1%)
+urinary tract infection (UTI),"painful urination,frequent urination","antibiotics,hydration","urologist",low (0.1%)
+sprain,"swelling,pain","rest,ice,compression,elevation","orthopedist",low (0.1%)
+flu,"fever","rest, fluids, antiviral drugs","family doctor","low (0.5%)"
+influenza,"fever","rest, fluids, antiviral drugs","family doctor","low (0.5%)"
+cold,"fever, sneezing, runny nose","rest, fluids, over-the-counter medications","family doctor","low (0.3%)"
+dengue,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+malaria,"fever, chills, sweating","antimalarial drugs, hospitalization","infectious disease specialist","high (5%)"
+typhoid,"fever, stomach pain, headache","antibiotics, fluids, rest","infectious disease specialist","high (4%)"
+measles,"fever, rash, cough","rest, fluids, vitamin A","pediatrician","medium (1.5%)"
+chickenpox,"fever, rash, itching","rest, calamine lotion, antiviral drugs","pediatrician","low (0.7%)"
+tuberculosis,"fever, cough, weight loss","antibiotics, prolonged treatment","pulmonologist","medium (3%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+zika,"fever, rash, joint pain","rest, fluids, pain relievers","infectious disease specialist","low (0.4%)"
+chikungunya,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+ebola,"fever, bleeding, weakness","hospitalization, supportive care","infectious disease specialist","very high (25%)"
+lassa fever,"fever, sore throat, vomiting","antiviral drugs, hospitalization","infectious disease specialist","high (10%)"
+rabies,"fever, agitation, paralysis","post-exposure prophylaxis, supportive care","infectious disease specialist","very high (20%)"
+leptospirosis,"fever, muscle pain, jaundice","antibiotics, supportive care","infectious disease specialist","medium (2.5%)"
+H1N1,"fever, cough, sore throat","antiviral drugs, rest","family doctor","medium (1%)"
+SARS,"fever, dry cough, difficulty breathing","hospitalization, supportive care","infectious disease specialist","high (9%)"
+MERS,"fever, cough, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+COVID-19,"fever, cough, loss of taste or smell","rest, isolation, medical care","infectious disease specialist","varies (1-15%)"
+meningitis,"fever, headache, stiff neck","antibiotics, hospitalization","neurologist","high (12%)"
+encephalitis,"fever, confusion, seizures","antiviral drugs, hospitalization","neurologist","high (6%)"
+brucellosis,"fever, joint pain, fatigue","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+rocky mountain spotted fever,"fever, rash, muscle pain","antibiotics, hospitalization","infectious disease specialist","medium (5%)"
+lyme disease,"fever, rash, joint pain","antibiotics, supportive care","infectious disease specialist","low (1%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+pneumonia,"fever, cough, chest pain","antibiotics, hospitalization","pulmonologist","medium (4%)"
+sinusitis,"fever, facial pain, congestion","antibiotics, nasal decongestants","ENT specialist","low (0.3%)"
+pharyngitis,"fever, sore throat, swollen glands","antibiotics, rest","family doctor","low (0.4%)"
+otitis media,"fever, ear pain, hearing loss","antibiotics, pain relievers","ENT specialist","low (0.2%)"
+urinary tract infection,"fever, pain during urination, frequent urination","antibiotics, fluids","urologist","low (0.5%)"
+kidney infection,"fever, back pain, nausea","antibiotics, hospitalization","urologist","medium (3.5%)"
+gastroenteritis,"fever, diarrhea, vomiting","fluids, rest, supportive care","gastroenterologist","low (0.4%)"
+appendicitis,"fever, abdominal pain, nausea","surgery, antibiotics","surgeon","high (6%)"
+peritonitis,"fever, abdominal pain, bloating","antibiotics, surgery","surgeon","high (10%)"
+hepatitis A,"fever, jaundice, abdominal pain","rest, supportive care","hepatologist","low (0.7%)"
+hepatitis B,"fever, jaundice, fatigue","antiviral drugs, supportive care","hepatologist","medium (1.5%)"
+hepatitis C,"fever, jaundice, liver damage","antiviral drugs, supportive care","hepatologist","medium (2%)"
+liver abscess,"fever, abdominal pain, weight loss","antibiotics, drainage","hepatologist","medium (4%)"
+pancreatitis,"fever, abdominal pain, nausea","hospitalization, supportive care","gastroenterologist","high (7%)"
+cholangitis,"fever, jaundice, abdominal pain","antibiotics, surgery","hepatologist","high (5%)"
+gallbladder infection,"fever, abdominal pain, nausea","surgery, antibiotics","gastroenterologist","medium (3%)"
+pelvic inflammatory disease,"fever, abdominal pain, discharge","antibiotics, rest","gynecologist","medium (1.8%)"
+sepsis,"fever, rapid breathing, confusion","hospitalization, antibiotics","intensivist","very high (20%)"
+toxic shock syndrome,"fever, rash, low blood pressure","hospitalization, antibiotics","intensivist","high (15%)"
+endocarditis,"fever, heart murmur, fatigue","antibiotics, surgery","cardiologist","high (12%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+systemic lupus erythematosus,"fever, joint pain, rash","immunosuppressants, supportive care","rheumatologist","medium (2%)"
+kawasaki disease,"fever, rash, swollen lymph nodes","immunoglobulin therapy, aspirin","pediatrician","low (0.5%)"
+lymphoma,"fever, swollen lymph nodes, weight loss","chemotherapy, radiation","oncologist","high (8%)"
+leukemia,"fever, fatigue, frequent infections","chemotherapy, bone marrow transplant","oncologist","high (10%)"
+multiple myeloma,"fever, bone pain, frequent infections","chemotherapy, stem cell transplant","oncologist","high (5%)"
+sarcoidosis,"fever, fatigue, swollen lymph nodes","steroids, immunosuppressants","pulmonologist","medium (2%)"
+vasculitis,"fever, rash, joint pain","steroids, immunosuppressants","rheumatologist","medium (3%)"
+hantavirus,"fever, muscle aches, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+q fever,"fever, cough, chest pain","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+psittacosis,"fever, headache, muscle pain","antibiotics, rest","infectious disease specialist","low (0.8%)"
+tularemia,"fever, skin ulcer, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+plague,"fever, swollen lymph nodes, weakness","antibiotics, hospitalization","infectious disease specialist","high (10%)"
+smallpox,"fever, rash, body aches","supportive care, isolation","infectious disease specialist","high (30%)"
+monkeypox,"fever, rash, swollen lymph nodes","supportive care, antiviral drugs","infectious disease specialist","medium (5%)"
+rubella,"fever, rash, swollen lymph nodes","supportive care, rest","pediatrician","low (0.3%)"
+mumps,"fever, swollen salivary glands, headache","rest, fluids, pain relievers","pediatrician","low (0.4%)"
+whooping cough,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+pertussis,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+rickettsial infection,"fever, rash, headache","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+scrub typhus,"fever, rash, muscle pain","antibiotics, supportive care","infectious disease specialist","medium (1.5%)"
+typhus,"fever, headache, rash","antibiotics, supportive care","infectious disease specialist","medium (1.8%)"
+toxoplasmosis,"fever, muscle pain, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","low (0.6%)"
+cytomegalovirus,"fever, fatigue, swollen glands","antiviral drugs, supportive care","infectious disease specialist","low (0.4%)"
+epstein-barr virus,"fever, sore throat, swollen glands","rest, fluids, supportive care","infectious disease specialist","low (0.3%)"
+herpes simplex virus,"fever, blisters, pain","antiviral drugs, supportive care","dermatologist","low (0.5%)"
+herpes zoster,"fever, rash, nerve pain","antiviral drugs, pain relievers","dermatologist","medium (1%)"
+roseola,"fever, rash, runny nose","supportive care, rest","pediatrician","low (0.2%)"
+hand-foot-and-mouth disease,"fever, sores, rash","supportive care, rest","pediatrician","low (0.4%)"
+fifth disease,"fever, rash, joint pain","supportive care, rest","pediatrician","low (0.2%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+west nile virus,"fever, headache, joint pain","supportive care, pain relievers","infectious disease specialist","low (0.5%)"
+dengue fever,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+chikungunya fever,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+flu,"fever, cough, sore throat","rest, fluids, antiviral drugs","family doctor","low (0.5%)"
+cold,"fever, sneezing, runny nose","rest, fluids, over-the-counter medications","family doctor","low (0.3%)"
+dengue,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+malaria,"fever, chills, sweating","antimalarial drugs, hospitalization","infectious disease specialist","high (5%)"
+typhoid,"fever, stomach pain, headache","antibiotics, fluids, rest","infectious disease specialist","high (4%)"
+measles,"fever, rash, cough","rest, fluids, vitamin A","pediatrician","medium (1.5%)"
+chickenpox,"fever, rash, itching","rest, calamine lotion, antiviral drugs","pediatrician","low (0.7%)"
+tuberculosis,"fever, cough, weight loss","antibiotics, prolonged treatment","pulmonologist","medium (3%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+zika,"fever, rash, joint pain","rest, fluids, pain relievers","infectious disease specialist","low (0.4%)"
+chikungunya,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+ebola,"fever, bleeding, weakness","hospitalization, supportive care","infectious disease specialist","very high (25%)"
+lassa fever,"fever, sore throat, vomiting","antiviral drugs, hospitalization","infectious disease specialist","high (10%)"
+rabies,"fever, agitation, paralysis","post-exposure prophylaxis, supportive care","infectious disease specialist","very high (20%)"
+leptospirosis,"fever, muscle pain, jaundice","antibiotics, supportive care","infectious disease specialist","medium (2.5%)"
+H1N1,"fever, cough, sore throat","antiviral drugs, rest","family doctor","medium (1%)"
+SARS,"fever, dry cough, difficulty breathing","hospitalization, supportive care","infectious disease specialist","high (9%)"
+MERS,"fever, cough, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+COVID-19,"fever, cough, loss of taste or smell","rest, isolation, medical care","infectious disease specialist","varies (1-15%)"
+meningitis,"fever, headache, stiff neck","antibiotics, hospitalization","neurologist","high (12%)"
+encephalitis,"fever, confusion, seizures","antiviral drugs, hospitalization","neurologist","high (6%)"
+brucellosis,"fever, joint pain, fatigue","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+rocky mountain spotted fever,"fever, rash, muscle pain","antibiotics, hospitalization","infectious disease specialist","medium (5%)"
+lyme disease,"fever, rash, joint pain","antibiotics, supportive care","infectious disease specialist","low (1%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+pneumonia,"fever, cough, chest pain","antibiotics, hospitalization","pulmonologist","medium (4%)"
+sinusitis,"fever, facial pain, congestion","antibiotics, nasal decongestants","ENT specialist","low (0.3%)"
+pharyngitis,"fever, sore throat, swollen glands","antibiotics, rest","family doctor","low (0.4%)"
+otitis media,"fever, ear pain, hearing loss","antibiotics, pain relievers","ENT specialist","low (0.2%)"
+urinary tract infection,"fever, pain during urination, frequent urination","antibiotics, fluids","urologist","low (0.5%)"
+kidney infection,"fever, back pain, nausea","antibiotics, hospitalization","urologist","medium (3.5%)"
+gastroenteritis,"fever, diarrhea, vomiting","fluids, rest, supportive care","gastroenterologist","low (0.4%)"
+appendicitis,"fever, abdominal pain, nausea","surgery, antibiotics","surgeon","high (6%)"
+peritonitis,"fever, abdominal pain, bloating","antibiotics, surgery","surgeon","high (10%)"
+hepatitis A,"fever, jaundice, abdominal pain","rest, supportive care","hepatologist","low (0.7%)"
+hepatitis B,"fever, jaundice, fatigue","antiviral drugs, supportive care","hepatologist","medium (1.5%)"
+hepatitis C,"fever, jaundice, liver damage","antiviral drugs, supportive care","hepatologist","medium (2%)"
+liver abscess,"fever, abdominal pain, weight loss","antibiotics, drainage","hepatologist","medium (4%)"
+pancreatitis,"fever, abdominal pain, nausea","hospitalization, supportive care","gastroenterologist","high (7%)"
+cholangitis,"fever, jaundice, abdominal pain","antibiotics, surgery","hepatologist","high (5%)"
+gallbladder infection,"fever, abdominal pain, nausea","surgery, antibiotics","gastroenterologist","medium (3%)"
+pelvic inflammatory disease,"fever, abdominal pain, discharge","antibiotics, rest","gynecologist","medium (1.8%)"
+sepsis,"fever, rapid breathing, confusion","hospitalization, antibiotics","intensivist","very high (20%)"
+toxic shock syndrome,"fever, rash, low blood pressure","hospitalization, antibiotics","intensivist","high (15%)"
+endocarditis,"fever, heart murmur, fatigue","antibiotics, surgery","cardiologist","high (12%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+systemic lupus erythematosus,"fever, joint pain, rash","immunosuppressants, supportive care","rheumatologist","medium (2%)"
+kawasaki disease,"fever, rash, swollen lymph nodes","immunoglobulin therapy, aspirin","pediatrician","low (0.5%)"
+lymphoma,"fever, swollen lymph nodes, weight loss","chemotherapy, radiation","oncologist","high (8%)"
+leukemia,"fever, fatigue, frequent infections","chemotherapy, bone marrow transplant","oncologist","high (10%)"
+multiple myeloma,"fever, bone pain, frequent infections","chemotherapy, stem cell transplant","oncologist","high (5%)"
+sarcoidosis,"fever, fatigue, swollen lymph nodes","steroids, immunosuppressants","pulmonologist","medium (2%)"
+vasculitis,"fever, rash, joint pain","steroids, immunosuppressants","rheumatologist","medium (3%)"
+hantavirus,"fever, muscle aches, shortness of breath","hospitalization, supportive care","infectious disease specialist","high (15%)"
+q fever,"fever, cough, chest pain","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+psittacosis,"fever, headache, muscle pain","antibiotics, rest","infectious disease specialist","low (0.8%)"
+tularemia,"fever, skin ulcer, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","medium (3%)"
+plague,"fever, swollen lymph nodes, weakness","antibiotics, hospitalization","infectious disease specialist","high (10%)"
+smallpox,"fever, rash, body aches","supportive care, isolation","infectious disease specialist","high (30%)"
+monkeypox,"fever, rash, swollen lymph nodes","supportive care, antiviral drugs","infectious disease specialist","medium (5%)"
+rubella,"fever, rash, swollen lymph nodes","supportive care, rest","pediatrician","low (0.3%)"
+mumps,"fever, swollen salivary glands, headache","rest, fluids, pain relievers","pediatrician","low (0.4%)"
+whooping cough,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+pertussis,"fever, severe cough, runny nose","antibiotics, supportive care","pediatrician","low (0.7%)"
+rickettsial infection,"fever, rash, headache","antibiotics, supportive care","infectious disease specialist","medium (2%)"
+scrub typhus,"fever, rash, muscle pain","antibiotics, supportive care","infectious disease specialist","medium (1.5%)"
+typhus,"fever, headache, rash","antibiotics, supportive care","infectious disease specialist","medium (1.8%)"
+toxoplasmosis,"fever, muscle pain, swollen lymph nodes","antibiotics, supportive care","infectious disease specialist","low (0.6%)"
+cytomegalovirus,"fever, fatigue, swollen glands","antiviral drugs, supportive care","infectious disease specialist","low (0.4%)"
+epstein-barr virus,"fever, sore throat, swollen glands","rest, fluids, supportive care","infectious disease specialist","low (0.3%)"
+herpes simplex virus,"fever, blisters, pain","antiviral drugs, supportive care","dermatologist","low (0.5%)"
+herpes zoster,"fever, rash, nerve pain","antiviral drugs, pain relievers","dermatologist","medium (1%)"
+roseola,"fever, rash, runny nose","supportive care, rest","pediatrician","low (0.2%)"
+hand-foot-and-mouth disease,"fever, sores, rash","supportive care, rest","pediatrician","low (0.4%)"
+fifth disease,"fever, rash, joint pain","supportive care, rest","pediatrician","low (0.2%)"
+scarlet fever,"fever, sore throat, rash","antibiotics, rest","pediatrician","low (0.8%)"
+rheumatic fever,"fever, joint pain, rash","antibiotics, anti-inflammatory drugs","cardiologist","medium (1.2%)"
+yellow fever,"fever, jaundice, bleeding","hospitalization, supportive care","infectious disease specialist","high (7%)"
+west nile virus,"fever, headache, joint pain","supportive care, pain relievers","infectious disease specialist","low (0.5%)"
+dengue fever,"fever, headache, joint pain","rest, fluids, pain relievers","infectious disease specialist","medium (2%)"
+chikungunya fever,"fever, joint pain, rash","rest, fluids, pain relievers","infectious disease specialist","low (0.6%)"
+bronchitis,"cough,mucus production,shortness of breath,chest pain","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",low (0.5%
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",moderate (1%)
+heart attack,"chest pain,shortness of breath,nausea,vomiting,lightheadedness,sweating",emergency medical services,cardiologist,high (20%)
+stroke,"sudden weakness,numbness on one side of the body,confusion,difficulty speaking,trouble seeing in one eye,severe headache",emergency medical services,neurologist ,high (15%)
+cancer,"lump,unexplained weight loss,fatigue,changes in bowel,bladder habits,persistent cough,indigestion,unexplained bleeding or discharge","surgery,chemotherapy,radiation therapy ",oncologist,varies depending on the type of cancer
+diabetes,"increased thirst,frequent urination,unexplained weight loss,fatigue,blurred vision,cuts that are slow to heal","diet,exercise,medication",endocrinologist,high (25%)
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms",neurologist,high (70%)
+arthritis,"pain,stiffness,swelling,inflammation in the joints","medication,physical therapy,lifestyle changes",rheumatologist,varies depending on the type of arthritis
+adenovirus,"fever,sore throat,cough,conjunctivitis,rash,pink eye","antibiotics,over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+aflatoxicosis,"vomiting,diarrhea,jaundice,liver damage,death","there is no cure for aflatoxicosis,but treatment may include supportive care,liver transplantation",gastroenterologist,high (70%)
+alcoholism,"physical dependence on alcohol,tolerance to alcohol,withdrawal symptoms,impaired judgment,memory problems,liver damage,heart disease,cancer"," treatment for alcoholism may include counseling,medication,support groups"," psychiatrist,addiction specialist",high (25%)
+allergic rhinitis,"runny nose,sneezing,itchy eyes,itchy nose,throat,palate","over-the-counter medications,allergy shots",allergist,low (0.1%)
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms",neurologist,high (70%)
+anemia,"fatigue,shortness of breath,pale skin,lightheadedness,dizziness", , hematologist ,varies depending on the type of anemia
+anxiety disorder,"excessive worry,fear,anxiety that interfere with daily life","treatment for anxiety disorders may include therapy,medication,combination of both","psychologist,psychiatrist",varies depending on the type of anxiety disorder
+appendicitis,"pain in the lower right abdomen,nausea,vomiting,fever",appendectomy,surgeon ,high (20%)
+arthritis,"pain,stiffness,swelling,inflammation in the joints","medication,physical therapy,lifestyle changes",rheumatologist,varies depending on the type of arthritis
+asperger syndrome,"difficulty with social interaction,repetitive behaviors,restricted interests","there is no cure for asperger syndrome,but there are treatments that can help manage the symptoms","psychologist,psychiatrist",varies
+asthma,"wheezing,shortness of breath,coughing,chest tightness","treatment for asthmmay include medication,lifestyle changes,allergy shots"," allergist,pulmonologist",varies
+bacterial meningitis,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+bipolar disorder,"extreme mood swings,from manito depression","treatment for bipolar disorder may include medication,therapy,combination of both"," psychologist,psychiatrist",varies
+bladder cancer,"blood in the urine,pain or burning when urinating,frequent urination,urgency to urinate,incontinence","surgery,chemotherapy,radiation therapy",urologist,high (70%)
+blood clot,"pain,swelling,redness,warmth,tenderness in the affected area,shortness of breath,chest pain,difficulty breathing,coughing up blood","treatment for blood clot may include medication,surgery,combination of both","cardiologist,hematologist",high (20%)
+bronchitis,"cough,mucus production,shortness of breath,chest pain","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",low (0.5%)
+bursitis,"pain,swelling,inflammation in bursa,which is small sac of fluid that cushions joints","medication,rest,ice,compression,elevation","family doctor,orthopedist",varies depending on the bursa
+cancer,"lump,unexplained weight loss,fatigue,changes in bowel,bladder habits,persistent cough,indigestion,unexplained bleeding or discharge","surgery,chemotherapy,radiation therapy",oncologist,varies depending on the type of cancer
+cervical cancer,"abnormal pap test results,abnormal vaginal bleeding,pain during sex","surgery,chemotherapy,radiation therapy",gynecologist,high (70%)
+chickenpox,"rash,fever,headache,muscle aches,fatigue","antiviral medication,over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+chronic obstructive pulmonary disease (copd),"chronic bronchitis,emphysema","treatment for copd may include medication,lifestyle changes,oxygen therapy",pulmonologist,varies depending on the type of copd 
+cholesterol,high levels of cholesterol in the blood,"diet,exercise,medication",cardiologist,varies depending on the level of cholesterol
+common cold,"runny nose,sneezing,sore throat,cough,congestion","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+conjunctivitis,"red,itchy,watery eyes","over-the-counter medications,warm compresses","family doctor,ophthalmologist",low (0.1%)
+depression ,"sadness,hopelessness,loss of interest in activities,changes in appetite,sleep,energy levels","treatment for depression may include medication,therapy,combination of both","psychologist,psychiatrist",varies
+diabetes,"increased thirst,frequent urination,unexplained weight loss,fatigue,blurred vision,cuts that are slow to heal","diet,exercise,medication",endocrinologist,high (25%)
+diarrhea,"loose,watery stools","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+eating disorder,disturbance in eating behavior that can lead to serious health problems,"treatment for eating disorders may include therapy,medication,support groups","psychologist,psychiatrist",varies depending on the type of eating disorder
+epilepsy,seizures,"medication,surgery", neurologist ,varies depending on the type of epilepsy
+fever,elevated body temperature ,"over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+food poisoning,"nausea,vomiting,diarrhea,abdominal cramps","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+gallstones,"pain in the upper right abdomen,nausea,vomiting,fever",surgery,surgeon ,high (20%)
+gonorrhea,"sexually transmitted infection that can cause burning during urination,discharge from the penis or vagina,pain in the lower abdomen",antibiotics,"urologist,gynecologist",high (70%)
+heart disease,"chest pain,shortness of breath,fatigue,dizziness,fainting","treatment for heart disease may include medication,lifestyle changes,surgery",cardiologist,high (20%)
+hepatitis,inflammation of the liver,"treatment for hepatitis may include medication,rest,lifestyle changes",gastroenterologist,varies depending on the type of hepatitis
+herpes,"sexually transmitted infection that can cause blisters on the genitals,mouth,other parts of the body","there is no cure for herpes,but there are treatments that can help manage the symptoms","urologist,gynecologist",high (70%)
+influenza,"fever,cough,sore throat,runny or stuffy nose,muscle aches,headache,fatigue","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+irritable bowel syndrome (ibs),"abdominal pain,bloating,constipation,diarrhea","treatment for ibs may include diet,lifestyle changes,medication"," family doctor,gastroenterologist",varies
+kidney stones ,"pain in the lower back or side,nausea,vomiting,blood in the urine",surgery,urologist,high (20%)
+lung cancer,"cough that does not go away,shortness of breath,chest pain,unexplained weight loss,fatigue,blood in the sputum","surgery,chemotherapy,radiation therapy",oncologist,high (70%)
+malaria,"fever,chills,sweating,headache,muscle aches,fatigue,vomiting,diarrhea",antimalarial drugs,"family doctor,urgent care",high (20%)
+measles,"fever,cough,runny nose,red eyes,sore throat,rash",measles vaccine,"family doctor,urgent care",high (70%)
+meningitis,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+mononucleosis,"fever,sore throat,fatigue,swollen lymph nodes,rash","there is no cure for mononucleosis,but symptoms can be treated with rest,fluids,over-the-counter medications","family doctor,urgent care",low (0.1%)
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue",antibiotics,"family doctor,pulmonologist",moderate (1%
+rabies,"fever,headache,muscle aches,tingling at the bite site,difficulty swallowing,hydrophobia,aerophobia",rabies vaccine,"doctor,urgent care",high (70%)
+salmonella,"fever,diarrhea,abdominal cramps,nausea,vomiting",antibiotics,"family doctor,urgent care ",low (0.1%)
+shingles,painful rash that follows nerve path,antiviral medication,"family doctor,dermatologist ",low (0.1%)
+tuberculosis (tb),"cough that does not go away,fever,night sweats,weight loss,fatigue,chest pain",antibiotics,"family doctor,pulmonologist",high (20%)
+urinary tract infection (uti),"painful urination,burning,frequent urination,urgency to urinate,blood in the urine",antibiotics,urologist,low (0.1%)
+varicose veins,"swollen,twisted veins,usually in the legs","surgery,compression stockings,lifestyle changes",vascular surgeon,varies
+warts ,"raised,rough growths on the skin","over-the-counter medications,prescription medications,cryotherapy,laser therapy",dermatologist,low (0.1%)
+yeast infection,"itching,burning,discharge from the vaginor penis","over-the-counter medications,prescription medications","urologist,gynecologist",low (0.1%)
+acanthamoebkeratitis,"pain,redness,inflammation in the eye","antibiotics,antifungals,surgery",ophthalmologist ,low (0.1%
+acute appendicitis,"pain in the lower right abdomen,nausea,vomiting,fever",appendectomy,surgeon,high (20%)
+acute kidney injury (aki) ,decreased kidney function,"treatment for the underlying cause,such as dehydration,infection,medication side effect ",nephrologist ,varies
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms ",neurologist,high (70%)
+anemia,"fatigue,shortness of breath,pale skin,lightheadedness,dizziness","treatment for anemidepends on the type of anemia,but may include medication,blood transfusions,surgery",hematologist,varies depending on the type of anemia
+aortic aneurysm,"bulge in the wall of the aorta,the largest artery in the body",surgery,vascular surgeon,high (20%)
+bacterial meningitis ,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+bipolar disorder,"extreme mood swings,from manito depression","treatment for bipolar disorder may include medication,therapy,combination of both","psychologist,psychiatrist",varies
+cervical cancer ,"abnormal pap test results,abnormal vaginal bleeding,pain during sex","surgery,chemotherapy,radiation therapy",gynecologist ,high (70%)
+colorectal cancer,"change in bowel habits,such as diarrhea,constipation,narrowing of the stool,blood in the stool,abdominal pain,unexplained weight loss","surgery,chemotherapy,radiation therapy",gastroenterologist,high (70%)
+dementia,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for dementia,but there are treatments that can help manage the symptoms",neurologist ,varies
+erectile dysfunction,"difficulty getting,keeping an erection ","medication,lifestyle changes,surgery ",urologist,varies
+fibromyalgi,"widespread pain,fatigue,tenderness","medication,lifestyle changes ",rheumatologist ,varies
+glaucoma,"increased pressure in the eye that can damage the optic nerve,lead to vision loss","medication,surgery ", ophthalmologist,varies
+heart failure,condition in which the heart cannot pump blood as well as it should,"medication,lifestyle changes,surgery",cardiologist,high (20%)
+kidney disease,damage to the kidneys that can lead to kidney failure,"treatment for the underlying cause,such as high blood pressure,diabetes,an infection",nephrologist,varies
+lung disease,"condition that affects the lungs,can make it difficult to breathe","treatment for the underlying cause,such as asthma,chronic obstructive pulmonary disease (copd),pneumonia",pulmonologist,varies
+parkinson's disease,"tremors,slow movement,stiffness,difficulty with balance,coordination "," medication,lifestyle changes",neurologist ,varies
+peptic ulcer disease ,"pain in the upper abdomen,indigestion,nausea,vomiting","medication,lifestyle changes,surgery ",gastroenterologist,varies
+peripheral artery disease,"pain,numbness,tingling in the arms or legs","medication,lifestyle changes,surgery",vascular surgeon,varies
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue",antibiotics,"family doctor,pulmonologist",moderate (1%)
+prostate cancer,"difficulty urinating,blood in the urine,pain in the back or hips,erectile dysfunction"," surgery,radiation therapy,hormone therapy",urologist,high (70%)
+rheumatoid arthritis,"pain,swelling,stiffness in the joints","medication,lifestyle changes",rheumatologist,varies
+stroke,"sudden weakness,numbness on one side of the body,difficulty speaking,confusion,trouble seeing in one eye,severe headache","treatment for the underlying cause,such as clot-busting medication,surgery","neurologist,neurosurgeon",high (20%)
+stomach cancer,"pain in the upper abdomen,indigestion,nausea,vomiting,weight loss","surgery,chemotherapy,radiation therapy",gastroenterologist ,high (70%)
+thyroid cancer,"lump in the neck,hoarseness,fatigue,weight loss,unexplained heat intolerance,sensitivity to cold","surgery,radiation therapy,hormone therapy",endocrinologist,high (70%)
+ulcerative colitis,"diarrhea,bloody stool,abdominal pain,weight loss","medication,surgery",gastroenterologist ,varies
+warts,"raised,rough growths on the skin","over-the-counter medications,prescription medications,cryotherapy,laser therapy", dermatologist,low (0.1%)
+atopic dermatitis,"itchy,red,inflamed skin","medication,lifestyle changes", dermatologist,varies
+celiac disease,"diarrhea,bloating,weight loss,fatigue,abdominal pain",gluten-free diet,gastroenterologist,varies
+chronic kidney disease,"fatigue,shortness of breath,swelling,high blood pressure,changes in urination","treatment for the underlying cause,such as high blood pressure,diabetes,an infection",nephrologist,varies
+crohn's disease,"diarrhea,bloody stool,abdominal pain,weight loss","medication,surgery",gastroenterologist,varies
+epilepsy ,seizures,"medication,surgery",neurologist,varies
+fibromyalgia,"widespread pain,fatigue,tenderness","medication,lifestyle changes",rheumatologist,varies
+graves' disease,"hyperthyroidism,which is an overactive thyroid","medication,surgery",endocrinologist,varies
+hashimoto's thyroiditis ,"hypothyroidism,which is an underactive thyroid ",medication,endocrinologist,varies
+lupus,chronic autoimmune disease that can affect any part of the body,"medication,lifestyle changes",rheumatologist ,varies
+flu,"fever,cough,sore throat,runny or stuffy nose,muscle aches,headache,fatigue","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
